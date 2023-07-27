@@ -42,34 +42,36 @@ struct ContentView: View {
             Text("Mafia")
                 .bold()
                 .font(.largeTitle)
-            HStack {
-                Text("Civilian")
-                    .font(.headline)
-                Stepper(value: $civillianValue, in: 1...Int.max) {
-                    Text(civillianValue.description)
+            VStack {
+                HStack {
+                    Text("Civilian")
+                        .font(.headline)
+                    Stepper(value: $civillianValue, in: 1...Int.max) {
+                        Text(civillianValue.description)
+                    }
                 }
-            }
-            HStack {
-                Text("Mafia")
-                    .font(.headline)
-                Stepper(value: $mafiaValue, in: 1...Int.max) {
-                    Text(mafiaValue.description)
+                HStack {
+                    Text("Mafia")
+                        .font(.headline)
+                    Stepper(value: $mafiaValue, in: 1...Int.max) {
+                        Text(mafiaValue.description)
+                    }
                 }
-            }
-            HStack {
-                Text("Doctor")
-                    .font(.headline)
-                Stepper(value: $doctorValue, in: 0...Int.max) {
-                    Text(doctorValue.description)
+                HStack {
+                    Text("Doctor")
+                        .font(.headline)
+                    Stepper(value: $doctorValue, in: 0...Int.max) {
+                        Text(doctorValue.description)
+                    }
                 }
-            }
-            HStack {
-                Text("Maniac")
-                    .font(.headline)
-                Stepper(value: $maniacValue, in: 0...Int.max) {
-                    Text(maniacValue.description)
+                HStack {
+                    Text("Maniac")
+                        .font(.headline)
+                    Stepper(value: $maniacValue, in: 0...Int.max) {
+                        Text(maniacValue.description)
+                    }
                 }
-            }
+            }.padding(.vertical, 20)
             Button("Start Game", action: startGame)
                 .buttonStyle(.borderedProminent)
         }
