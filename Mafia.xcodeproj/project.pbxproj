@@ -10,7 +10,7 @@
 		CBA6615D2A72A5AC00B57149 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA6615C2A72A5AC00B57149 /* CardView.swift */; };
 		CBA661612A73AA9100B57149 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA661602A73AA9100B57149 /* Functions.swift */; };
 		CBC8F0782A725ECD00B50AD3 /* MafiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8F0772A725ECD00B50AD3 /* MafiaApp.swift */; };
-		CBC8F07A2A725ECD00B50AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8F0792A725ECD00B50AD3 /* ContentView.swift */; };
+		CBC8F07A2A725ECD00B50AD3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8F0792A725ECD00B50AD3 /* MainView.swift */; };
 		CBC8F07C2A725ED000B50AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC8F07B2A725ED000B50AD3 /* Assets.xcassets */; };
 		CBC8F07F2A725ED000B50AD3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC8F07E2A725ED000B50AD3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -20,7 +20,7 @@
 		CBA661602A73AA9100B57149 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		CBC8F0742A725ECD00B50AD3 /* Mafia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mafia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC8F0772A725ECD00B50AD3 /* MafiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafiaApp.swift; sourceTree = "<group>"; };
-		CBC8F0792A725ECD00B50AD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBC8F0792A725ECD00B50AD3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CBC8F07B2A725ED000B50AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBC8F07E2A725ED000B50AD3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -56,7 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				CBC8F0772A725ECD00B50AD3 /* MafiaApp.swift */,
-				CBC8F0792A725ECD00B50AD3 /* ContentView.swift */,
+				CBC8F0792A725ECD00B50AD3 /* MainView.swift */,
 				CBA6615C2A72A5AC00B57149 /* CardView.swift */,
 				CBC8F07B2A725ED000B50AD3 /* Assets.xcassets */,
 				CBC8F07D2A725ED000B50AD3 /* Preview Content */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC8F07A2A725ECD00B50AD3 /* ContentView.swift in Sources */,
+				CBC8F07A2A725ECD00B50AD3 /* MainView.swift in Sources */,
 				CBA661612A73AA9100B57149 /* Functions.swift in Sources */,
 				CBA6615D2A72A5AC00B57149 /* CardView.swift in Sources */,
 				CBC8F0782A725ECD00B50AD3 /* MafiaApp.swift in Sources */,
