@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CBA6615D2A72A5AC00B57149 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA6615C2A72A5AC00B57149 /* CardView.swift */; };
-		CBA661612A73AA9100B57149 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA661602A73AA9100B57149 /* File.swift */; };
+		CBA661612A73AA9100B57149 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBA661602A73AA9100B57149 /* Functions.swift */; };
 		CBC8F0782A725ECD00B50AD3 /* MafiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8F0772A725ECD00B50AD3 /* MafiaApp.swift */; };
 		CBC8F07A2A725ECD00B50AD3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBC8F0792A725ECD00B50AD3 /* ContentView.swift */; };
 		CBC8F07C2A725ED000B50AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBC8F07B2A725ED000B50AD3 /* Assets.xcassets */; };
@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		CBA6615C2A72A5AC00B57149 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		CBA661602A73AA9100B57149 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CBA661602A73AA9100B57149 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		CBC8F0742A725ECD00B50AD3 /* Mafia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mafia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBC8F0772A725ECD00B50AD3 /* MafiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MafiaApp.swift; sourceTree = "<group>"; };
 		CBC8F0792A725ECD00B50AD3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 				CBA6615C2A72A5AC00B57149 /* CardView.swift */,
 				CBC8F07B2A725ED000B50AD3 /* Assets.xcassets */,
 				CBC8F07D2A725ED000B50AD3 /* Preview Content */,
-				CBA661602A73AA9100B57149 /* File.swift */,
+				CBA661602A73AA9100B57149 /* Functions.swift */,
 			);
 			path = Mafia;
 			sourceTree = "<group>";
@@ -145,7 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBC8F07A2A725ECD00B50AD3 /* ContentView.swift in Sources */,
-				CBA661612A73AA9100B57149 /* File.swift in Sources */,
+				CBA661612A73AA9100B57149 /* Functions.swift in Sources */,
 				CBA6615D2A72A5AC00B57149 /* CardView.swift in Sources */,
 				CBC8F0782A725ECD00B50AD3 /* MafiaApp.swift in Sources */,
 			);
